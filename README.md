@@ -87,7 +87,7 @@ To run the ros2_kdl_vision_control node in another terminal
 ros2 run ros2_kdl_package ros2_kdl_vision_control --ros-args -p task:="look-at-point"
 ```
 now you can try moving the aruco tag in gazebo.
-```
+
 ## Point 2B
 In the first terminal
 ```
