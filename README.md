@@ -28,7 +28,7 @@ To run the world with aruco tag and velocity interface
 $ ros2 launch iiwa_bringup iiwa.launch.py command_interface:="velocity" robot_controller:="velocity_controller"
 ```
 
-To run the world with the sphere and velocity interface
+To run the world with the sphere and velocity interface ⚙️
 ```
 $ ros2 launch iiwa_bringup iiwa.launch.py command_interface:="velocity" robot_controller:="velocity_controller" use_aruco:=false
 ```
