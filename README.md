@@ -6,9 +6,7 @@ Clone this package in the `src` folder of your ROS 2 workspace. Check for missin
 ```
 $ git clone https://github.com/FedericoTr26/RL_Homework-3.git
 ```
-```
-$ rosdep install -i --from-path src --rosdistro humble -y
-```
+
 Build your new package
 
 ```
