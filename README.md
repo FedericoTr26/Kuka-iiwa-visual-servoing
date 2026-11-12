@@ -2,7 +2,7 @@
 
 A ROS 2 and Gazebo Sim project that adds a camera to the KUKA iiwa end-effector and uses visual measurements for camera positioning and target tracking.
 
-[Technical report](Trenti_hw3.pdf) · [ArUco marker 201 reference](ros2_vision/data/Online%20ArUco%20markers%20generator.pdf)
+[Technical report](kuka-iiwa-visual-servoing.pdf) · [ArUco marker 201 reference](ros2_vision/data/Online%20ArUco%20markers%20generator.pdf)
 
 ## Implementation
 
