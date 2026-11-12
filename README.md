@@ -4,18 +4,18 @@ A ROS 2 and Gazebo Sim project that adds a camera to the KUKA iiwa end-effector 
 
 [Technical report](Trenti_hw3.pdf) · [ArUco marker 201 reference](ros2_vision/data/Online%20ArUco%20markers%20generator.pdf)
 
-## What we built
+## Implementation
 
-- Added an end-effector camera and selectable sphere and ArUco simulation worlds.
-- Implemented blue-sphere detection with HSV segmentation and OpenCV contours.
-- Used ArUco pose estimates for camera positioning and look-at-point control.
-- Combined straight-line trajectory tracking and look-at-point control in an effort-controlled demonstration.
+- The simulation was extended with an end-effector camera and selectable sphere and ArUco worlds.
+- A blue-sphere detector was implemented using HSV segmentation and OpenCV contours.
+- The controller uses ArUco pose estimates for camera positioning and look-at-point control.
+- The effort-controlled demonstration combines straight-line trajectory tracking with look-at-point control.
 
 ## Run the demos
 
 Use ROS 2 Humble with Gazebo Sim, OpenCV, `cv_bridge`, and `rqt_image_view`. The repository includes the iiwa simulation stack and the ArUco ROS packages.
 
-From the `src` directory of your ROS 2 workspace, clone the repository.
+Clone the repository from the `src` directory of the ROS 2 workspace.
 
 ```bash
 git clone https://github.com/FedericoTr26/RL_Homework-3.git
